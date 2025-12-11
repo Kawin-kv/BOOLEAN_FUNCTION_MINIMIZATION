@@ -32,31 +32,29 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-~~~
-module funct1(a,b,c,d,f1); 
-input a,b,c,d; 
-output f1; 
-assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c)); 
-endmodule
-~~~
-~~~
-module funct2(w,x,y,z,f2); 
-input w,x,y,z; 
-output f2; 
-assign f2=((~y & z)|( w & y )|(x & y)); 
-endmodule
-~~~
+<img width="1920" height="1080" alt="exp2a program" src="https://github.com/user-attachments/assets/21e5c4c6-f4e2-4aca-99e2-e553017f02ce" />
+
+<img width="1920" height="1080" alt="exp2b program" src="https://github.com/user-attachments/assets/71a0aa9e-7cfc-42b6-b397-7b2bcc5f0441" />
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by:KAWIN.KV RegisterNumber:25016780
 **RTL realization**
-<img width="1897" height="634" alt="Screenshot 2025-11-22 200505" src="https://github.com/user-attachments/assets/f3b8edce-9349-4e84-9232-c94d781c093e" />
+
 **Output:**
-<img width="979" height="833" alt="Screenshot 2025-11-22 185815" src="https://github.com/user-attachments/assets/17916253-2e52-4416-a043-ba60611fb761" />
+
 **RTL**
+<img width="674" height="400" alt="exp 2a RTL diagram" src="https://github.com/user-attachments/assets/bf0c5234-fc13-443a-befe-6e4145c83d07" />
+
+
+<img width="667" height="397" alt="exp2b RTL diagram" src="https://github.com/user-attachments/assets/461383a5-6edb-403e-b509-50bb236c758a" />
+
+
 
 **Timing Diagram**
+<img width="1920" height="1080" alt="exp2a waveform" src="https://github.com/user-attachments/assets/b7dc9965-f216-4a1d-8359-2714015d22a9" />
+
+<img width="1920" height="1080" alt="exp2b waveform" src="https://github.com/user-attachments/assets/64e5f567-269e-4801-a507-9872a6e500fd" />
 
 **Result:**
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
